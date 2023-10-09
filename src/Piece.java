@@ -1,5 +1,11 @@
 public class Piece {
-    public static void main(String[] args){
-
+    public String getPieceLetter() {
+        return pieceLetter;
     }
+
+    private String pieceLetter = "A";
+}
+
+Class BlankPiece extends Piece{
+    String pieceLetter = "E";
 }
