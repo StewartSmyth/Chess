@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6ff4e3-ad8b-4393-a7cd-7f2dbeb3db4f" name="Changes" comment="">
+    <list default="true" id="ff6ff4e3-ad8b-4393-a7cd-7f2dbeb3db4f" name="Changes" comment="Make Classes">
+      <change afterPath="$PROJECT_DIR$/src/BlankPiece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -61,7 +62,8 @@
       <workItem from="1696496436884" duration="1469000" />
       <workItem from="1696582876241" duration="641000" />
       <workItem from="1696590080127" duration="156000" />
-      <workItem from="1696865686216" duration="1702000" />
+      <workItem from="1696865686216" duration="1723000" />
+      <workItem from="1697101112007" duration="3083000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <option name="closed" value="true" />
@@ -71,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696499402951</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Make Classes">
+      <option name="closed" value="true" />
+      <created>1696870228315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696870228315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start" />
+    <MESSAGE value="Make Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make Classes" />
   </component>
 </project>

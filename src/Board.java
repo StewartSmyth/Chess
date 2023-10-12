@@ -1,14 +1,27 @@
 public class Board {
+    Piece[][] board = new Piece[8][8];
     public Board(){
-        Piece[][] board = new Piece[8][8];
-        for(Piece p: board[0]){
-            p = new Piece();
+
+        BlankPiece test = new BlankPiece();
+        test.Move(3,4);
+
+        for(int i=0; i<8; i++){
+            board[0][i] = new Piece();
         }
         for (int i=1;i<8;i++){
-            for(Piece p: board[i]){
-                p = new BlankPiece();
+            for(int j = 0; j<8; j++){
+                board[i][j] = new BlankPiece();
             }
         }
+
+
+    }
+
+    public void setBoard() {
+
+    }
+
+    public void displayBoard(){
         for(int i = 0; i<8; i++){
             for(int j = 0; j<8; j++){
                 System.out.print(board[i][j].getPieceLetter());

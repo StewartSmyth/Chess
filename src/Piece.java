@@ -1,11 +1,19 @@
 public class Piece {
+    private String pieceLetter;
+    protected boolean canMoveStraight = false;
+    protected boolean canMoveDiagonal = false;
+    protected boolean canMoveHorse = false;
+    protected boolean canMoveOneSquare = false;
+
+
     public String getPieceLetter() {
         return pieceLetter;
     }
 
-    private String pieceLetter = "A";
+    public void Move(int moveX, int moveY){
+        System.out.println("test");
+    }
+
+
 }
 
-Class BlankPiece extends Piece{
-    String pieceLetter = "E";
-}
