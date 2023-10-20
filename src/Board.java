@@ -1,10 +1,12 @@
+import java.util.Arrays;
+
 public class Board {
     Piece[][] board = new Piece[8][8];
     public Board(){
 
     }
 
-    public void setBoard() {
+    public void setUpBoard() {
         boolean white = false;
         for (int row=7;row>=0;row--){
             if(row==1){
